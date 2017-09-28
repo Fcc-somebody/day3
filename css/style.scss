@@ -9,6 +9,7 @@ html,body,#wrap{
 }
 body{
     font-size: .32rem;
+    background: #eee;
 }
 #wrap{
     display: flex;
@@ -18,6 +19,8 @@ body{
     display: flex;
     width:100%;
     height: .88rem;
+    background: #fff;
+    flex-shrink: 1;
     span{
         width:30%;
         margin-left:3%;
@@ -28,4 +31,115 @@ body{
 #wrap .header span.on{
     color:#00f;
     border-bottom: 2px solid #00f;
+}
+#wrap main{
+    flex:1;
+    background:#fff;
+    margin-top:15px;
+    overflow: hidden;
+}
+.swiper-slide{
+    width:100%;
+    height:100%;
+}
+#wrap main .quan .box{
+    width:90%;
+    height: 2.5rem;
+    border-radius: 5px;
+    background:#ccc;
+    margin-left:5%;
+    margin-top: 20px;
+}
+#wrap main .quan .box .top{
+ height: 1.5rem;
+ position: relative;
+ background: rgba(52, 232, 219, 0.36);
+//  display: flex;
+ b{
+    width:20%;
+    // background: red;
+    font-size:1.5rem;
+    margin-left: 1rem;
+    color:#fff;
+ }
+ span{
+     font-size: 30px;
+     color:#fff;
+   float: right;
+   margin-top:.8rem;
+   margin-right: .2rem;
+ }
+}
+#wrap main .quan .box .top .ico{
+    width:.5rem;
+    height:.5rem;
+    background: url(../img/a.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top:.2rem;
+    left:.3rem;
+}
+#wrap main .quan .box .bot{
+    width:100%;
+    height:1rem;
+    background: #fff;
+    font-size: 14px;
+    line-height: .5rem;
+}
+#wrap main .quan .box .bot .mk{
+    color:#65F3F0
+}
+#wrap main .quan .box .bot .time{
+    color:#cccc
+}
+
+#wrap main .quan2 .box{
+    width:90%;
+    height: 2.5rem;
+    border-radius: 5px;
+    background:#ccc;
+    margin-left:5%;
+    margin-top: 20px;
+}
+#wrap main .quan2 .box .top{
+ height: 1.5rem;
+ position: relative;
+ background: rgba(52, 232, 219, 0.36);
+//  display: flex;
+ b{
+    width:20%;
+    // background: red;
+    font-size:1.5rem;
+    margin-left: 1rem;
+    color:#fff;
+ }
+ span{
+     font-size: 30px;
+     color:#fff;
+   float: right;
+   margin-top:.8rem;
+   margin-right: .2rem;
+ }
+}
+#wrap main .quan2 .box .top .ico{
+    width:.5rem;
+    height:.5rem;
+    background: url(../img/a.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top:.2rem;
+    left:.3rem;
+}
+#wrap main .quan2 .box .bot{
+    width:100%;
+    height:1rem;
+    background: #fff;
+    font-size: 14px;
+    line-height: .5rem;
+}
+#wrap main .quan2 .box .bot .mk{
+    color:#65F3F0
+}
+#wrap main .quan2 .box .bot .time{
+    color:#cccc
 }
